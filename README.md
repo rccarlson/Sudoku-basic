@@ -1,6 +1,7 @@
 # Sudoku-basic
 <b>A basic sudoku solver written in Java</b><br>
 This program creates a list of all possible answers for each space in a sudoku puzzle. As the puzzle progresses, these possiblities are removed by comparing rows, columns, and blocks for duplicates. It does not utilize any advanced sudoku methods, such as the X-Wing method, and is therefore limited to medium puzzles and below, though it has been able to solve some hard puzzles.<br>
+main() is found in solver.java, which interfaces with Puzzle.java to create a puzzle, then instructs it to solve the puzzle.<br>
 Input is given row by row with an 'x' in place of a space. Internally, these x's are replaced with a -1 until the answer can be found. Sample input is as follows:<br><i>
 xxxxxx6xx<br>
 689x3xx42<br>
